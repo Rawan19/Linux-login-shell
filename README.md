@@ -1,5 +1,7 @@
 # Linux-login-shell
-The project simulates user login in linux. main.sh displays a menu with the following options:
+The project simulates user login in linux. 
+
+main.sh displays a menu with the following options:
 
 1-Add new group
 
