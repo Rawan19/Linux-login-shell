@@ -1,4 +1,4 @@
-#full implementation for add group and delete group: groupname only;ADD ID
+#full implementation for add group and delete group
 clear
 echo "Main Menu"
 
