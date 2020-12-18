@@ -11,4 +11,4 @@ adds a new group to groups file (this is a self-created file, similar to /etc/gr
 
 3- Test login
 - Prompts user for user name and password.
-- Compares user input to the contents of users file(which simulates /etc/passwd), with the follwoing format>> username:userpassword:userid:group
+- Compares user input with the contents of users file(which simulates /etc/passwd), with the follwoing format>> username:userpassword:userid:group
