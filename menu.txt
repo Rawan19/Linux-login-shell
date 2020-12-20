@@ -1,4 +1,4 @@
-#full implementation for add group and delete group
+#full implementation for add group and delete group: groupname only;ADD ID
 clear
 echo "Main Menu"
 
@@ -14,7 +14,7 @@ function addgroup {
 			
 		else
 		
-			echo $grpname >>groups
+			echo $grpname: >>groups
 		fi		
 						
 	else
@@ -41,7 +41,7 @@ function removegroup {
 
 	else
 		#delete group
-		sed -i "/$grpname/d" groups
+		sed -i "/$grpname:/d" groups
 		#delete white spaces 
 		sed -i '/^$/d' groups 		
 		echo "Group deleted"
